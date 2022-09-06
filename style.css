@@ -133,11 +133,14 @@ img {
 /* Section 1 End*/
 
 /* Section 2 */
-/* .section-2 {
-  background-image: url(images/bg-curve-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: 100% 100vmax;
-} */
+.section-2 {
+  background-color: #f8f8fe;
+}
+
+.img-curve {
+  width: 100%;
+  margin-bottom: -1em;
+}
 
 .content-2 h2 {
   font-size: 1.1rem;
@@ -311,13 +314,9 @@ img {
 .icon {
   border: 1.5px solid;
   border-radius: 50%;
-  padding: 3px;
+  padding: 0.5em;
   margin-right: 0.5em;
   margin-bottom: 1em;
-}
-
-.icon-1 {
-  filter: revert-layer;
 }
 
 .attribution {
@@ -372,6 +371,9 @@ img {
   /* Main Content End */
 
   /* Section 1 */
+  .section-1 {
+    margin-bottom: 8em;
+  }
   .content-1 {
     padding: 0;
     text-align: start;
@@ -407,11 +409,7 @@ img {
 
   /* Section 2*/
   .section-2 {
-    /* background-image: url(images/bg-curve-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: contain; */
     text-align: start;
-    padding-top: 5em;
     padding-bottom: 5em;
   }
 
